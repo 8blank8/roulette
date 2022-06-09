@@ -204,9 +204,9 @@ function render(inputValue) {
    html.innerHTML = `
    <div class="combine__body">
             <div class="combine__body-two">
-               <div class="combine__col1 item-three ${addClassCol1()}"></div>
+               <div class="combine__col1 item-three ${addClassCol3()}"></div>
                <div class="combine__col2 item-three ${addClassCol2()}"></div>
-               <div class="combine__col3 item-three ${addClassCol3()}"></div>
+               <div class="combine__col3 item-three ${addClassCol1()}"></div>
             </div>
             <div class="combine__body-three">
                <div class="combine__1st12 item-two ${addClass1st12()}"></div>
